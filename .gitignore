@@ -1,0 +1,97 @@
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+config/.env
+config/*.env
+config/config.yaml
+config/config.yml
+config/config.local.yaml
+config/config.local.yml
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ===============================
+# R
+# ===============================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ===============================
+# Data (no raw data committed)
+# ===============================
+data/raw/
+data/interim/
+data/processed/
+data/*.csv
+data/*.parquet
+data/*.rds
+
+# ===============================
+# Databases / Local Storage
+# ===============================
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+
+# ===============================
+# Reports (generated outputs)
+# ===============================
+reports/*.csv
+reports/*.xlsx
+reports/*.pdf
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.jpeg
+
+# Keep the folders but not contents
+!reports/README.md
+!reports/figures/.gitkeep
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Temporary / Cache
+# ===============================
+tmp/
+temp/
+.cache/
